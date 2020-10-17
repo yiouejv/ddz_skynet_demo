@@ -1,0 +1,12 @@
+root = "./"
+thread = 8
+logger = nil
+harbor = 2
+address = "127.0.0.1:2527"
+master = "127.0.0.1:2013"
+start = "game_launcher"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
+luaservice = root.."service/?.lua;"..root.."test/?.lua;"..root.."examples/?.lua"
+lualoader = "lualib/loader.lua"
+snax = root.."examples/?.lua;"..root.."test/?.lua"
+cpath = root.."cservice/?.so"
