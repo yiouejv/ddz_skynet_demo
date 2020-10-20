@@ -304,13 +304,13 @@ lsend(lua_State *L) {
 
 /*
 	uint32 address
-	 string address
+	string address
 	integer source_address
 	integer type
 	integer session
 	string message
-	 lightuserdata message_ptr
-	 integer len
+	lightuserdata message_ptr
+	integer len
  */
 static int
 lredirect(lua_State *L) {

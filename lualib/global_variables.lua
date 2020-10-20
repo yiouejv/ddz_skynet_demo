@@ -1,0 +1,7 @@
+require("PRINT")
+
+
+
+
+
+require("strict")
